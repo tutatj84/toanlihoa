@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student's Mark</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="addStudent">
+        <form>
+          <label>
+            <div class="boxName">Name</div>
+            <input type="text" class="inputData" id="name" placeholder="Name" />
+          </label>
+          <label>
+            <div class="boxName">Maths</div>
+            <input type="text" class="inputData" id="toan" placeholder="Toan" />
+          </label>
+          <label>
+            <div class="boxName">Physics</div>
+            <input type="text" class="inputData" id="ly" placeholder="Ly" />
+          </label>
+          <label>
+            <div class="boxName">Chemistry</div>
+            <input type="text" class="inputData" id="hoa" placeholder="Hoa" />
+          </label>
+          <br />
+          <label>
+            <button id="submit" type="button">Enter</button>
+          </label>
+        </form>
+      </div>
+      <div class="result">
+        <table id="table">
+          <tr>
+            <th>Name</td>
+            <th>Toan</td>
+            <th>Ly</td>
+            <th>Hoa</td>
+            <th > <button id="calAvg" type="button">Trung Binh</button> </th>
+            <th>Edit</th>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+    <div class="notification">
+      
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
